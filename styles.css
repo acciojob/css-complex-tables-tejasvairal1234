@@ -1,20 +1,25 @@
-/*  your css code here. If applicable */
-table
-{
-	width: 100%;
-	text-align: center;
+table {
+  width: 100%;
+  border-width: 0px 0px 1px 1px;
+  border-style: solid;
+  border-color: rgb(255, 165, 0);
+  border-collapse: collapse;
 }
 
-table, td, th 
-{
-	border-width: 0px 0px 1px 1px;
-	border-style: solid;
-	border-color: rgb(255, 165, 0);
-	border-collapse: collapse;
+table th,
+table td {
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: rgb(255, 165, 0);
+  text-align: center;
+  padding: 3px 5px;
 }
 
-th
-{
-	background-color: #888888;
-	color: white;
+th {
+  background-color: rgb(136, 136, 136);
+  color: rgb(255, 255, 255);
+}
+
+.sub-total-text {
+  text-align: right;
 }
